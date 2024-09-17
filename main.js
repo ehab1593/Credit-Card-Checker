@@ -39,7 +39,7 @@ const batch = [
 ];
 
 //Task 1: Look over the starter code. There are 15 arrays that each contain the digits of separate credit card numbers. They all have prefixes to reflect their status, i.e. variables that start with valid contain a valid number, whereas invalid do not, and mystery variables can be either. There is also a batch array that stores all of the provided credit cards in a single array.
-/You’ll use these arrays later to check if your functions are working properly.
+//You’ll use these arrays later to check if your functions are working properly.
 //Create a function, validateCred() that has a parameter of an array. The purpose of validateCred() is to return true when an array contains digits of a valid credit card number and false when it is invalid. This function should NOT mutate the values of the original array.
 //Starting from the farthest digit to the right, AKA the check digit, iterate to the left.
 //As you iterate to the left, every other digit is doubled (the check digit is not doubled). If the number is greater than 9 after doubling, subtract 9 from its value.
